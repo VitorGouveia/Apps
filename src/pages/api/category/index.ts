@@ -21,6 +21,7 @@ const create = async ({ title, subcategory }: CreateProps) => {
     },
     
     include: {
+      item: true,
       subcategory: true
     }
   })
@@ -30,7 +31,11 @@ const get = async () => {
   return await client.category.findMany({
     include: {
       item: true,
-      subcategory: true
+      subcategory: {
+        include: {
+          item: true
+        }
+      }
     }
   })
 }
