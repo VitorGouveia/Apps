@@ -1,29 +1,16 @@
 {
-  "name": "imgly",
-  "version": "0.0.1",
-  "main": "index.js",
-  "repository": "https://github.com/VitorGouveia/imgly.git",
-  "author": "VitorGouveia <vitorneves.gouveia10@gmail.com>",
+  "name": "apps",
+  "version": "0.0.0",
+  "description": "My Applications Portfolio.",
+  "author": "Vitor Gouveia <vitorneves.gouveia10@gmail.com>",
+  "repository": "https://github.com/VitorGouveia/Apps",
+  "homepage": "https://vitorgouveia.github.io/Apps",
   "license": "MIT",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@prisma/client": "3.4.1",
-    "next": "12.0.2",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
-  },
-  "devDependencies": {
-    "@types/node": "16.11.6",
-    "@types/react": "17.0.34",
-    "eslint": "7",
-    "eslint-config-next": "12.0.2",
-    "prisma": "3.4.1",
-    "typescript": "4.4.4"
-  }
+  "packageManager": "yarn@3.1.1",
+  "workspaces": [
+    "apps/**",
+    "libs/**",
+    "packages/**"
+  ]
 }
