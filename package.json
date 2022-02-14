@@ -12,5 +12,13 @@
     "apps/**",
     "libs/**",
     "packages/**"
-  ]
+  ],
+  "scripts": {
+    "release": "release-it"
+  },
+  "devDependencies": {
+    "@release-it/conventional-changelog": "^4.1.0",
+    "release-it": "^14.12.4",
+    "release-it-yarn-workspaces": "^2.0.1"
+  }
 }
