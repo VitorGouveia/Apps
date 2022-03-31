@@ -5,10 +5,6 @@ module.exports = {
     // return the customized config
     return {
       ...config,
-      define: {
-        ...config.define,
-        global: "window",
-      },
     };
   },
   stories: ["../src/**/*.stories.mdx", "../src/**/*.stories.@(js|jsx|ts|tsx)"],

@@ -1,0 +1,10 @@
+see all available services and the professionals that execute them
+be able to see the professional's schedule
+schedule a service
+get pricing for service
+
+special page for women
+special page for men
+special page for deals
+
+page for each service
