@@ -1,0 +1,8 @@
+.container {
+  appearance: none;
+  outline: none;
+  border: none;
+
+
+  @apply bg-slate-900 text-gray-50 font-bold rounded-md px-4 py-2;
+}

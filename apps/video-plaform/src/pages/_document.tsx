@@ -122,12 +122,12 @@ class AppDocument extends Document {
             href="/images/apple_splash_640.png"
             sizes="640x1136"
           />
-
-          <NextScript />
         </Head>
 
         <body>
           <Main />
+
+          <NextScript />
         </body>
       </Html>
     );

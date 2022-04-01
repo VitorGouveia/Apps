@@ -1,5 +1,6 @@
 {
   "extends": "next/core-web-vitals",
+  "plugins": ["eslint-plugin-storybook"],
   "rules": {
     "react/display-name": "off"
   }
